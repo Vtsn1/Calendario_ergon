@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard ERGON</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <h1>Dashboard ERGON</h1>
+        <p id="subtitle">Monitoramento de Usinas Fotovoltaicas</p>
+      </div>
+      <span class="pill pill-progress">Em andamento</span>
+    </header>
+
+    <section id="kpis" class="kpi-grid"></section>
+
+    <section class="grid-two">
+      <article class="card">
+        <h2>Distribuicao</h2>
+        <div id="donut" class="donut-wrap"></div>
+      </article>
+      <article class="card">
+        <h2>Progresso geral</h2>
+        <div id="progress"></div>
+        <h2 class="mt">Por fase</h2>
+        <div id="phases"></div>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Avisos</h2>
+      <div id="alerts"></div>
+    </section>
+
+    <section class="card">
+      <h2>Filtrar por status</h2>
+      <div id="filters" class="filters"></div>
+    </section>
+
+    <section class="main-grid">
+      <article class="card">
+        <h2>Calendario interativo</h2>
+        <div id="calendar"></div>
+      </article>
+      <article class="card detail-card">
+        <h2>Detalhes do dia</h2>
+        <div id="detail"></div>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Evolucao do projeto</h2>
+      <div id="chart"></div>
+    </section>
+
+    <section class="card">
+      <h2>Observacoes e anotacoes registradas</h2>
+      <p class="hint">Clique em qualquer linha para abrir o dia no calendario.</p>
+      <div id="notes"></div>
+    </section>
+
+    <section class="card">
+      <h2 id="history-title">Historico</h2>
+      <div id="history"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
