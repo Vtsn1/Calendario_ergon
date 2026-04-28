@@ -8,6 +8,7 @@
     "total": 55,
     "totalHoras": 330,
     "horasDia": 6
+  },
     
     {"id":"1.2.1","fase":"Estudos","atividade":"Estudo da Camada OSI","data":"2026-03-16","status":"done","horas":6,"bugs":0,"anotacao":"Atividade concluida."}
     {"id":"1.2.2","fase":"Estudos","atividade":"Estudo da Camada OSI (cont.)","data":"2026-03-17","status":"atraso","horas":0,"bugs":0,"anotacao":""},
